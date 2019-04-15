@@ -2,3 +2,7 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+.preview baku{
+  background-image: url("images/baku.jpg");
+}
