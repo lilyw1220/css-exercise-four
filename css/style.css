@@ -3,35 +3,51 @@ body {
   font-size: 1.5em;
 }
 
+h1 {
+  padding-left: 1em;
+  padding-top: 1em;
+}
 
 .baku{
   background-image: url("../images/baku.jpg");
+  display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 100%;
 }
 
 .london{
   background-image: url("../images/london.png");
+  display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 100%;
 }
 
 .madrid{
   background-image: url("../images/madrid.jpg");
+  display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 100%;
 }
 
 .rome {
   background-image: url("../images/rome.jpg");
+  display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 100%;
+}
+
+@media screen and (min-width: 575px) {
+    div {
+      margin: 1%;
+      width: 48%;
+    }
+
 }
