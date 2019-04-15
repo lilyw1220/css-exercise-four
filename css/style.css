@@ -1,8 +1,37 @@
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 1.5em;
 }
 
-.preview baku{
-  background-image: url("images/baku.jpg");
+
+.baku{
+  background-image: url("../images/baku.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+
+.london{
+  background-image: url("../images/london.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+
+.madrid{
+  background-image: url("../images/madrid.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+
+.rome {
+  background-image: url("../images/rome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
 }
