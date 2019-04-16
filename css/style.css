@@ -15,6 +15,7 @@ h1 {
   background-size: cover;
   height: 300px;
   width: 100%;
+  margin-bottom: 1em;
 }
 
 .london{
@@ -24,6 +25,7 @@ h1 {
   background-size: cover;
   height: 300px;
   width: 100%;
+  margin-bottom: 1em;
 }
 
 .madrid{
@@ -33,6 +35,7 @@ h1 {
   background-size: cover;
   height: 300px;
   width: 100%;
+  margin-bottom: 1em;
 }
 
 .rome {
@@ -42,12 +45,55 @@ h1 {
   background-size: cover;
   height: 300px;
   width: 100%;
+  margin-bottom: 1em;
 }
 
 @media screen and (min-width: 575px) {
-    div {
+
+    .baku {
       margin: 1%;
-      width: 48%;
+      width: 40%;
     }
+
+    .london {
+      margin: 1%;
+      width: 40%;
+    }
+
+    .madrid {
+      margin: 1%;
+      width: 40%;
+    }
+
+    .rome {
+      margin: 1%;
+      width: 40%;
+    }
+}
+
+@media screen and (min-width: 991px) {
+
+    .baku {
+      margin: 1%;
+      width: 20%;
+    }
+
+    .london {
+      margin: 1%;
+      width: 20%;
+    }
+
+    .madrid {
+        margin: 1%;
+        width: 20%;
+  }
+
+    .rome {
+        margin: 1%;
+        width: 20%;
+
+    }
+
+
 
 }
